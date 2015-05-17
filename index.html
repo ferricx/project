@@ -1,0 +1,59 @@
+<html>
+<head>
+    <link type="text/css" rel="stylesheet"
+          href="https://www.copera.org/sites/default/files/css/css_o7EQdqUmraCdCAcn1DFV25z5Y_c1cYnHP1r9RB7usuI.css"
+          media="all"/>
+    <link rel="stylesheet" href="//code.jquery.com/qunit/qunit-1.18.0.css">
+
+    <link type="text/css" rel="stylesheet"
+          href="https://www.copera.org/tools/css/styles.css"
+          media="all"/>
+
+    <link type="text/css" rel="stylesheet"
+          href="css/test.css"
+          media="all"/>
+
+    <script type="text/javascript" src="//code.jquery.com/qunit/qunit-1.18.0.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.10/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/project.js"></script>
+
+</head>
+<body>
+
+<div class="page-content">
+    <div class="song-list">
+
+    </div>
+    <div class="filters form-section-narrow">
+        <form class="form-section-narrow" id="filter-form" onsubmit="filterResults()">
+            <fieldset>
+                <label for="startDate">Released After</label>
+                <input type="text" class="datepicker" name="start-date" id="start-date">
+            </fieldset>
+            <fieldset>
+                <label for="endDate">Released Before</label>
+                <input type="text" class="datepicker" name="end-date" id="end-date">
+            </fieldset>
+            <fieldset>
+                <input type="submit" value="Filter" class="btn-submit">
+            </fieldset>
+            <fieldset><input type="reset" class="btn-submit" value="Clear" onclick="clearFilter()"></fieldset>
+        </form>
+
+    </div>
+
+    <div class="save-button">
+        <fieldset>
+            <input class="btn-submit" type="submit" value="Save List" onclick="saveList()"/>
+        </fieldset>
+        <fieldset>
+            <input class="btn-submit" type="submit" value="Add Song" onclick="buildEditItem()"/>
+        </fieldset>
+
+    </div>
+</div>
+<div id="qunit"></div>
+</body>
+</html>
+

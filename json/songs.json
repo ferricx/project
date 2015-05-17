@@ -1,0 +1,38 @@
+
+[ {
+  "Id": "1",
+  "Title": "Miles Runs the Voodoo Down",
+  "Artist": "Miles Davis",
+  "Release Date": "05/05/2015",
+  "Price": 99
+},
+  {
+    "Id": "2",
+    "Title": "Four Seasons",
+    "Artist":  "Vivaldi",
+    "Release Date": "05/05/2015",
+    "Price": 99
+  },
+  {
+    "Id": "3",
+    "Title": "No Brakes",
+    "Artist":  "The Offspring",
+    "Release Date": "02/03/2004",
+    "Price": 88
+  },
+  {
+    "Id": "4",
+    "Title": "5th Symphony",
+    "Artist":  "Beethoven",
+    "Release Date": "02/03/2004",
+    "Price": 77
+  },
+  {
+    "Id": "5",
+    "Title": "Easy",
+    "Artist":  "Lionel Ritchie",
+    "Release Date": "02/03/2004",
+    "Price": 111
+  }
+
+]

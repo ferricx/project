@@ -1,0 +1,99 @@
+.song-list {
+  width: 70%;
+  float: left;
+  padding: 5px; }
+  @media screen and (max-width: 800px) {
+    .song-list {
+      width: 100%;
+      font-size: 12px;
+      line-height: 1.2em; } }
+  .song-list .song-item {
+    margin-left: 0; }
+    .song-list .song-item div {
+      float: left;
+      overflow: hidden;
+      margin-left: 0px; }
+    .song-list .song-item .Id {
+      width: 5%;
+      text-align: center;
+      padding: 0; }
+    .song-list .song-item .Price {
+      width: 8%;
+      padding-right: 5px;
+      text-align: right; }
+    .song-list .song-item .ReleaseDate {
+      text-align: center; }
+  .song-list .row {
+    float: left;
+    width: 100%;
+    overflow: auto;
+    max-width: none; }
+    .song-list .row:nth-child(2n) {
+      background-color: #ebefe3; }
+    .song-list .row .utility {
+      text-align: center;
+      width: 18%; }
+  .song-list .cell {
+    display: block;
+    width: 20%;
+    float: left; }
+    .song-list .cell input {
+      line-height: 1.1em; }
+  .song-list .song-list-header {
+    padding-bottom: 0;
+    text-align: center;
+    font-weight: bold; }
+    .song-list .song-list-header .header {
+      cursor: pointer;
+      padding-bottom: 2px; }
+    .song-list .song-list-header .Id {
+      width: 5%; }
+    .song-list .song-list-header .Price {
+      width: 8%; }
+  .song-list div {
+    margin-left: 0; }
+
+.song-edit > input {
+  padding-bottom: 0;
+  padding-top: 0; }
+
+.save-button {
+  float: left; }
+  .save-button fieldset {
+    float: left; }
+  @media screen and (max-width: 800px) {
+    .save-button {
+      font-size: 12px;
+      line-height: 1.2em;
+      float: right;
+      width: 50%; } }
+
+.form-section-narrow {
+  width: 100%;
+  display: inline-block;
+  padding: 5px; }
+
+.filters {
+  float: right;
+  padding: 5px;
+  width: 27%; }
+  @media screen and (max-width: 800px) {
+    .filters {
+      width: 50%;
+      font-size: 12px;
+      line-height: 1.2em;
+      float: left; } }
+
+.page-content {
+  padding-left: 1em;
+  padding-right: 1em;
+  max-width: none;
+  display: block; }
+  @media screen and (max-width: 800px) {
+    .page-content {
+      display: inline; } }
+
+#ui-datepicker-div {
+  display: none; }
+
+/*# sourceMappingURL=test.css.map */
