@@ -1,7 +1,7 @@
 # SongProject
 Christian Ferrier
 
-This a javascript song library manager. 
+This a song library manager web app. 
 
 Features:
 Sorting by any attribute ascending and descending.
