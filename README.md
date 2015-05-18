@@ -4,12 +4,18 @@ Christian Ferrier
 This a song library manager web app. 
 
 Features:
-Sorting by any attribute ascending and descending.
-Adding songs.
-Deleting songs.
-Filtering songs by Release Date.
-Server side saving. (this feature is simulated)
-Responsive design.
+
+*Sorting by any attribute ascending and descending.
+
+*Adding songs.
+
+*Deleting songs.
+
+*Filtering songs by Release Date.
+
+*Server side saving. (this feature is simulated)
+
+*Responsive design.
 
 All of the server side interactions are mocked up due to the scope of this project.
 
