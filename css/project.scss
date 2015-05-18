@@ -1,0 +1,128 @@
+@mixin child($n) {
+  &:nth-child(#{$n}) {
+    background-color: #ebefe3;
+  }
+}
+
+.song-list {
+  width: 70%;
+  float: left;
+  padding: 5px;
+  @media screen and (max-width: 800px) {
+    width: 100%;
+    font-size: 12px;
+    line-height: 1.2em;
+  }
+  .song-item {
+    margin-left: 0;
+    div {
+      float: left;
+      overflow: hidden;
+      margin-left: 0px;
+    }
+    .Id {
+      width: 5%;
+      text-align: center;
+      padding: 0;
+    }
+    .Price {
+      width: 8%;
+      padding-right: 5px;
+      text-align: right;
+    }
+    .ReleaseDate {
+      text-align: center;
+    }
+  }
+  .row {
+    @include child(2n);
+    float: left;
+    width: 100%;
+    overflow: auto;
+    max-width: none;
+
+    .utility {
+      text-align: center;
+      width: 18%
+    }
+  }
+  .cell {
+    display: block;
+    width: 20%;
+    float: left;
+
+    input {
+      line-height: 1.1em;
+    }
+
+  }
+
+  .song-list-header {
+    padding-bottom: 0;
+    text-align: center;
+    font-weight: bold;
+    .header {
+      cursor: pointer;
+      padding-bottom: 2px;
+    }
+    .Id {
+      width: 5%;
+    }
+    .Price {
+      width: 8%;
+    }
+  }
+  div {
+    margin-left: 0;
+  }
+}
+
+.song-edit > input {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.save-button {
+  float: left;
+  fieldset {
+    float: left;
+  }
+  @media screen and (max-width: 800px) {
+    font-size: 12px;
+    line-height: 1.2em;
+    float: right;
+    width: 50%
+  }
+}
+
+.form-section-narrow {
+  width: 100%;
+  display: inline-block;
+  padding: 5px;
+}
+
+.filters {
+  float: right;
+  padding: 5px;
+  width: 27%;
+  @media screen and (max-width: 800px) {
+    width: 50%;
+    font-size: 12px;
+    line-height: 1.2em;
+    float: left;
+  }
+}
+
+.page-content {
+  padding-left: 1em;
+  padding-right: 1em;
+  max-width: none;
+  display: block;
+  @media screen and (max-width: 800px) {
+    display: inline;
+  }
+}
+
+#ui-datepicker-div {
+  display: none;
+}
