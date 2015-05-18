@@ -19,3 +19,4 @@ The form to edit a song is built dynamically using javascript and jQuery. This f
 
 I am not sure that I have implemented Qunit as efficiently as I could have. I would like some clarity on the correct usage. It seems like the functions should probably be in their own .js file and loaded for testing and just not loaded when testing is complete.
 
+The savesongs.json and savesongsfail.json files are to simulate serverside song saves and fails.
